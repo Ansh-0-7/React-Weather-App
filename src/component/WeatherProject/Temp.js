@@ -37,10 +37,12 @@ try{
 }
 
     
-    useEffect(()=>{
-        getWeatherInfo();
+   useEffect(()=>{
+       function getWeatherInfo(){};
+       getWeatherInfo()
     }
         ,[]);
+    
     
   return (
       <>
