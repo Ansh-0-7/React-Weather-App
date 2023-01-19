@@ -63,8 +63,7 @@ try{
            </div>
        </div>
             
-      
-   <Weathercard tempInfo={tempInfo}/>
+      <Weathercard {...tempInfo} />
     </>
     
   )
