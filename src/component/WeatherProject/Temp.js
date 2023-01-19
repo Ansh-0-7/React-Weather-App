@@ -38,7 +38,7 @@ try{
 
     
    useEffect(()=>{
-       function getWeatherInfo(){};
+       
        getWeatherInfo()
     }
         ,[]);
@@ -63,7 +63,7 @@ try{
            </div>
        </div>
             
-      <Weathercard {...tempInfo} />
+      <Weathercard tempInfo={tempInfo}/>
     </>
     
   )
